@@ -1,0 +1,11 @@
+<h1> New Author </h1>
+
+<%= form_for @author do |a| %>
+  <%= a.label :name%>
+  <%= a.text_field :name%>
+
+  <%= a.label :birth_year%>
+  <%= a.number_field :birth_year%>
+
+  <%= a.submit %>
+<% end %>
